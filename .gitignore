@@ -1,0 +1,19 @@
+# Helm packaged charts
+*.tgz
+
+# Vendored dependencies (helm dependency build 로 재생성)
+**/charts/
+
+# Local-only values
+**/values.local.yaml
+**/values.*.local.yaml
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Misc
+*.bak
+*.swp
